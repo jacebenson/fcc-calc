@@ -33,23 +33,6 @@ $(document).ready(function () {
   $(document).on('click', function () {//focus on lcd on click
     $('#lcd').focus();
   });
-  /*  <span id="7" class="button btn btn-primary col-md-2 col-xs-2">7</span>
-      <span id="8" class="button btn btn-primary col-md-2 col-xs-2">8</span>
-      <span id="9" class="button btn btn-primary col-md-2 col-xs-2">9</span>
-      <span id="divide" class="button btn btn-warning col-md-2 col-xs-2">&divide;</span>
-      <span id="4" class="button btn btn-primary col-md-2 col-xs-2">4</span>
-      <span id="5" class="button btn btn-primary col-md-2 col-xs-2">5</span>
-      <span id="6" class="button btn btn-primary col-md-2 col-xs-2">6</span>
-      <span id="times" class="button btn btn-warning col-md-2 col-xs-2">&times;</span>
-      <span id="1" class="button btn btn-primary col-md-2 col-xs-2">1</span>
-      <span id="2" class="button btn btn-primary col-md-2 col-xs-2">2</span>
-      <span id="3" class="button btn btn-primary col-md-2 col-xs-2">3</span>
-      <span id="minus" class="button btn btn-warning col-md-2 col-xs-2">&minus;</span>
-      <span id="0" class="button btn btn-primary col-md-2 col-xs-2">0</span>
-      <span id="dot" class="button btn btn-primary col-md-2 col-xs-2">.</span>
-      <span id="equal" class="button btn btn-warning col-md-2 col-xs-2">=</span>
-      <span id="plus" class="button btn btn-warning col-md-2 col-xs-2">&plus;</span>
-  */
   $('#0').on('click',function(){
     global.setLCD(global.getLCD() + '0');
   });

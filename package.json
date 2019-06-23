@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "light-server -s public/ -w 'public/**'"
+    "start": "light-server -s public/ -w 'public/*.*'"
   },
   "repository": {
     "type": "git",
