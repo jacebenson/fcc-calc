@@ -1,4 +1,4 @@
-# Quotes
+# Calculator
 
 This frontend project is to use the skills learned at FreeCodeCamp.
 
@@ -24,18 +24,21 @@ These instructions will get you a copy of the project up and running on your loc
 A step by step series of examples that tell you have to get a development env running
 
 Clone the repo, `https://gitlab.com/jacebenson/fcc-calc.git`
-```
+
+```sh
 git clone https://gitlab.com/jacebenson/fcc-calc.git
 ```
 
 Install the required dependencies
-```
+
+```sh
 cd fcc-calc
 npm install
 ```
 
 To get this repo hosting I've included a npm script to spin up a server with this command;
-```
+
+```sh
 npm start
 ```
 
@@ -55,7 +58,6 @@ So all that's needed is the content of the page needs to exist in `/public`.
 ## Contributing
 
 I don't know why'd you'd want to contribute but if you do or want to see if the pull is wanted open a Issue.
-
 
 ## Authors
 
